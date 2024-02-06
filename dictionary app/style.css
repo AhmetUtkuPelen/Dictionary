@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@font-face{
+font-family: caramel;
+src: url(./Caramel.ttf);
+}
+body{
+font-family: caramel;
+}
+.container{
+position: absolute;
+}
+.search-box{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.search-box input{
+padding: 5px;
+border-radius: 5px;
+font-size: 14px;
+width: 100%;
+}
+.search-box button{
+padding: 5px;
+width: 25%;
+color: black;
+border-radius: 5px;
+margin-left: 10px;
+cursor: pointer;
+}
+.result{
+position: relative;
+}
+.result h3{
+font-size: 40px;
+color: crimson;
+}
+.result .word{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+}
+.result button{
+cursor: pointer;
+border: none;
+font-size: 30px;
+}
+.result .details{
+display: flex;
+gap: 10px;
+color: black;
+margin: 20px;
+font-size: 35px;
+}
+.word-meaning{
+color: orangered;
+font-size: 40px;
+}
+.word-example{
+color: chocolate;
+font-style: italic;
+font-size: 40px;
+padding: 10px;
+margin-top: 10px;
+}
+.error{
+color: crimson;
+margin-top: 20px;
+}
